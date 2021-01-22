@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -61,7 +62,7 @@ h2 {
     margin: 8px;
 }
 
-p {
+.p {
     max-width: 450px;
     margin: 25px font-size:17px;
     line-height: 1.3;
@@ -91,4 +92,7 @@ p {
 
 .links:hover {
     background-color: dodgerblue;
+}
+html {
+    scroll-behavior: smooth;
 }
